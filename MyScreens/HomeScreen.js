@@ -5,8 +5,10 @@ import { MyButton } from './MyButton';
 export function HomeScreen(props) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-          <Text style={{color:'#fff', fontSize:20}}>Ir a formulario personas</Text>
+          <Text style={{color:'#fff', fontSize:20, backgroundColor: 'black'}}>Bienvenidos al sistema de matriculas</Text>
         <MyButton props={props}/>
       </View>
     );
   }
+
+export default HomeScreen;
